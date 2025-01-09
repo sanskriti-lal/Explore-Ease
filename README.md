@@ -39,6 +39,7 @@ Follow these steps to set up the project locally on your machine:
    git clone https://github.com/sanskriti-lal/Explore-Ease.git
    cd Explore-Ease
 2. Install the project dependencies:
+   ```bash
     npm install
 3. Set up environment variables:
     - Create a .env file in the root directory of the project.
@@ -47,4 +48,5 @@ Follow these steps to set up the project locally on your machine:
       REACT_APP_RAPIDAPI_KEY=your_rapidapi_key
     - Replace your_google_maps_api_key and your_rapidapi_key with your actual API keys.
 4. Start the development server:
+   ```bash
    npm start
